@@ -25,8 +25,7 @@ class PostsShow extends Component {
 		if(!this.props.post){
 			return <div>Loading...</div>
 		}
-		return (
-			
+		return (	
 			<div>
 				<Link to="/">Back to Index</Link>
 				<button 
